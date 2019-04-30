@@ -1,0 +1,42 @@
+	<head>
+		<title>form tag</title>
+	</head>
+	<body>
+		<form>
+			Name 
+			<input type="text" name="name"><br><br>
+			Phone
+			<input type="text" name="phone"><br><br>
+			Email 
+			<input type="text" name="email"><br><br>
+			<fieldset>
+			<legend>which taxi do you require?</legend><br>
+			<input type="radio" value="car"> car<br>
+			<input type="radio" value="van"> car<br>
+			<input type="radio" value="tuk tuk"> car<br><br>
+		    </fieldset>
+		    <fieldset>
+			<legend>Extras</legend><br>
+			<input type="checkbox" value="baby seat"> baby seat<br>
+			<input type="checkbox" value="wheelchair access"> wheelchair access<br>
+			<input type="checkbox" value="stock tip"> stock tip<br><br>
+		    </fieldset><br>
+			Pickup Date/Time 
+			<input type="text" name="pickup date/time" value="dd/mm/yyyy,  --:--"><br><br>
+			<h>Pickup place</h>
+			<select>
+	              <option value="mysore">mysore</option>
+	              <option value="banagolre">banagolre</option>
+	              <option value="managolre">managolre</option>
+	              <option value="mandya">mandya</option>
+	        </select><br><br>
+			Dropoff place
+			<input type="text" name="dropoff place"><br><br>
+			<h>special insturction</h>
+			<textarea name="message" rows="2" cols="30">
+            </textarea><br>
+			<input name="button" type="submit" value="submit booking"><br>
+
+		</form>
+		</body>
+		</html>

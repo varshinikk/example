@@ -1,0 +1,14 @@
+body
+{
+	background-color: yellow;
+}
+#fontcolor
+{
+	color: red;
+}
+.redcolor
+{
+	color: blue;
+	text-align: center;
+	font-style: italic;
+}

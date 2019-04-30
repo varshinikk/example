@@ -1,0 +1,17 @@
+body
+{
+    text-align:right;
+    background-image: url(../img/pic.jpeg);
+}
+h1
+{
+	text-align: center;
+	color: blue;
+	font-style: italic;
+}
+#align
+{
+	height:50%;
+	width: 50%;
+}
+

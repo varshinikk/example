@@ -1,0 +1,25 @@
+body
+{
+	background-color: green;
+}
+h1
+{
+	text-align: center;
+	font-style: italic;
+	color:pink;
+}
+#style
+{
+	color:blue;
+	font-size: 22;
+}
+.color
+{
+	color:red;
+	font-size: 22;
+}
+#font
+{
+	color:yellow;
+	font-size: 22;
+}
